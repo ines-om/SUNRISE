@@ -1,3 +1,12 @@
+## SUNRISE
+React web app designed to promote safe and effective exercise with the support of AI. 
+
+Using Teachable Machine, I trained an AI model to recognize exercise poses and provide feedback on whether they’re being done correctly. 
+The goal is to help users maintain proper form, reduce the risk of injury and make exercise more accessible to everyone, regardless of their fitness level!
+
+- Chosen as 1 of the winners of the KWK x Deloitte Health Equity Challenge. 
+
+
 ## Running React on Replit
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
