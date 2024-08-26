@@ -1,0 +1,95 @@
+.PopUpContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-text: center;
+
+  flex-direction: column;
+  
+  background: white;
+  width: 270px;
+  
+  border-radius: 10px;
+  border: 5px solid #4B8CBA;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0px 20px 0px 20px;
+
+  transform: translate(-50%, -50%) scale(1);
+  transition: opacity 0.3s ease;
+}
+
+
+.PopUpText{
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.PopUpTitle {
+  font-family: "Jura", sans-serif;
+  font-size: 25px;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.PopUpDesc {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  padding: 0px;
+  margin: 30px 10px;
+}
+
+.popUpSun {
+  align-self: center;
+  width: 60px;
+
+  margin-top: 25px;
+  padding: 5px;
+}
+
+.rotateIcon{
+  width: 60px;
+  margin-bottom: 1px;
+  padding: 0px;
+}
+
+.open-popup {
+  opacity: 1;
+  top: 50%;
+
+  transform: translate(-50%, -50%) scale(1);
+  transition: opacity 0.3s ease;
+}
+
+.PopUpButton {
+  align-self: center;
+  
+  width: 200px;
+  height: 60px;
+
+  border: 0px;
+  border-radius: 15px;
+
+  margin: 30px;
+
+  color: white;
+  background-color: #4B8CBA;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.PopUpButton:hover {
+  cursor: pointer;
+  color: #4B8CBA;
+  background-color: #9fd3f9;
+
+  border: 5px solid #4B8CBA;
+}

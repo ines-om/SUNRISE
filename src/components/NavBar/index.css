@@ -1,0 +1,121 @@
+
+/* --------------------------------------*
+|                                        |
+|          CSS for the Navbar
+|                                        |      
+*----------------------------------------*/
+
+.container {
+  max-width: 100%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  display: inline-flex; 
+  list-style-type: none;
+
+  width: 102.5%;
+  
+  background-color: #f3f6fc;
+  color: rgba(45, 47, 48, 1);
+  
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  
+  box-shadow: 0 6px 6px -6px rgb(64, 64, 64, 0.5);
+
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 350;
+  font-style: italic;
+}
+
+.subcontainer1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.subcontainer2{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover {
+  color: rgba(75, 140, 186, 1);
+}
+
+/*--------------------------------------*
+|                                       |
+|    CSS for NavBar - Mobile Version    |
+|                                       |
+*--------------------------------------*/
+
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  
+  .container {
+    flex-direction: column; 
+    max-width: 100%;
+  }
+  
+  .logo {
+    flex-grow: 0;
+    margin-bottom: 10px;
+  }
+
+  .navBar {
+    flex-direction: column;
+    margin-top: 10px; 
+    justify-content: center; 
+    font-size: 25px;
+  }
+
+  .subcontainer1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .subcontainer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+  }
+
+  .nav-item {
+    padding-top: 20px;
+  }
+
+  .navBar li {
+    flex-basis: auto; 
+    margin-left: 0; 
+    margin-bottom: 10px; 
+  }
+
+  .navBar li:last-child {
+    margin-bottom: 0; 
+  }
+}
+

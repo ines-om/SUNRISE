@@ -1,0 +1,236 @@
+.custom-font-about {
+  font-family: "Jura", sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+/*--------------------------*
+|                           |
+|  FIRST SECTION/CONTAINER  |
+|                           |
+*---------------------------*/
+
+.subAbout1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-family: "Jura", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 40px;
+  color: #F5B82E;
+}
+
+.whySunrise {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #4f4f4f;
+}
+
+/*---------------------------*
+|                            |
+|  SECOND SECTION/CONTAINER  |
+|                            |
+*---------------------------*/
+
+.aboutPlanPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+}
+
+.planPhoto {
+  height: 250px;
+  border: 5px dotted #4B8CBA;
+  margin-right: 20px;
+}
+
+.aboutText {
+  width: 25%;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------------------------*
+|                            |
+|  THIRD SECTION/CONTAINER   |
+|                            |
+*---------------------------*/
+
+.aboutStartPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.checkPhoto {
+  height: 150px;
+  width: 150px;
+  border: 5px dotted #4B8CBA;
+}
+
+.aboutDuring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jura", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(170, 59, 152, 1);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.aboutComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.aboutComponentImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  margin-left: 20px;
+}
+
+.aboutComponentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  width: 30%; 
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 40px;
+}
+
+.aboutComponentText p {
+  margin: 10px 0;
+}
+
+/*---------------------------*
+|                            |
+|  THIRD SECTION/CONTAINER   |
+|                            |
+*---------------------------*/
+
+.poseReference {
+  height: 150px;
+  width: auto;
+  border: 5px dotted #4B8CBA;
+}
+
+/*---------------------------*
+|                            |
+|  FOURTH SECTION/CONTAINER  |
+|                            |
+*---------------------------*/
+
+.finalAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+}
+
+.buttonsImage {
+  width: 150px;
+  height: auto;
+  border: 5px dotted #4B8CBA;
+  margin-top: 20px; 
+}
+
+.aboutFinal {
+  font-family: "Jura", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: #F5B82E;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  align-self: center;
+}
+
+/*---------------------------*
+|    MOBILE FRIENDLY CSS     |
+*---------------------------*/
+
+@media (max-width: 768px) {
+  .whySunrise {
+    width: 70%;
+  }
+
+  .aboutPlanPage {
+    flex-direction: column;
+  }
+
+  .aboutText {
+    margin-top: 30px;
+    width: 80%;
+  }
+
+  .planPhoto {
+    margin-right: 0px;
+    align-content: center;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .aboutComponent {
+    flex-direction: column;
+  }
+
+  .aboutComponentText {
+    width: 70%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .aboutFinal {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .finalAbout {
+    width: 90%;
+  }
+}

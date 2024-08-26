@@ -1,0 +1,208 @@
+.PlanContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sunriseIcon {
+  height: 78px;
+  width: 80px;
+  margin-top: 20px;
+}
+
+.planTitle {
+  font-family: "Jura", sans-serif;
+  font-size: 40px;
+  color: #AA3B98;
+  font-weight: 600;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.planButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.duration, .difficulty, .focusArea {
+  margin-bottom: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 17px;
+  color: white;
+  background-color: #AA3B98;
+  border: 0px;
+  border-radius: 50px;
+  height: 50px;
+  width: 400px;
+}
+
+.durationContainer, .difficultyContainer, .focusAreaContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.duration:hover, .difficulty:hover, .focusArea:hover {
+  background-color: #7f1a6e;
+  border: 0px;
+  border-radius: 50px;
+  height: 50px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.StartButton {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.StartNow {
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  align-content: center;
+
+  width: 150px;
+  height: 60px;
+  
+  border: 0px;
+  border-radius: 15px;
+  color: white;
+  background-color: #F5B82E;
+
+  
+  box-shadow: 6px 6px 6px -6px rgb(64, 64, 64, 0.5);
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 23px;
+  
+
+  margin: 10px;
+}
+
+.StartNow:hover {
+  background-color: #f0a60a;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px -6px rgb(41, 41, 41, 0.5);
+}
+
+/*--------------------------*
+|                           |
+|      DROPDOWN MENU        |
+|                           |
+*--------------------------*/
+
+.dropdown-menu {
+  display: none; 
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+
+  position: absolute;
+  
+  width: 340px;
+  height: auto;
+
+  background-color: white;
+  
+  padding: 5px 5px 0px 5px;
+  border-radius: 0px 0px 20px 20px;
+  border: 4px solid #AA3B98;
+  
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+
+  
+  list-style-type: none;
+  padding: 0px; 
+  margin-top: 114px;
+}
+
+.difficultyContainer .dropdown-menu {
+  margin-top: 144px;
+}
+
+.duration-menu, .difficulty-menu, .focusArea-menu {
+  list-style-type: none; 
+  padding-left: 0; 
+
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #dbdbdb;
+  padding: 10px;
+  margin: 0px 15px 0px 15px;
+  border-radius: 5px;
+
+}
+
+.duration-item, .difficulty-item, .focusArea-item {
+  color: #AA3B98;
+}
+
+
+.durationContainer:hover .dropdown-menu,
+.difficultyContainer:hover .dropdown-menu,
+.focusAreaContainer:hover .dropdown-menu {
+  display: flex;
+}
+
+.howItWorks {
+  margin-top: 15px;
+}
+
+.how {
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+}
+
+/*------------------------------*
+|                               |
+|     MOBILE FRIENDLY CSS       |
+|                               |
+*------------------------------*/
+
+
+@media (max-width: 768px) {
+
+  body, html {
+    text-align: center;
+  }
+  
+  .duration, .difficulty, .focusArea {
+    width: 270px;
+    height: 70px;
+  }
+
+  .duration:hover, .difficulty:hover, .focusArea:hover {
+    width: 270px;
+    height: 70px;
+  }
+
+  .dropdown-menu {
+    width: 220px;
+  }
+
+
+
+}

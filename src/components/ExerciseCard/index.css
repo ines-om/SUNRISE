@@ -1,0 +1,231 @@
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 100%;
+}
+
+/*-------------------------------------------*
+|                                            |
+|  SUBCARD1 (IMAGE) AND SPECIFIC COMPONENTS  |
+|                                            |
+*-------------------------------------------*/
+
+.subCard1 {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+
+  max-width: 100%;
+  margin: 0px;
+  margin-bottom: 20px;
+
+}
+
+.ExerciseImage {
+  border-radius: 10px;
+  border: 8px solid #AA3B98;
+  box-shadow: 4px 8px 8px -8px rgb(64, 64, 64, 0.5);
+}
+
+/*-----------------------------------*
+|                                    |
+|  SUBCARD2 AND SPECIFIC COMPONENTS  |
+|                                    |
+*-----------------------------------*/
+
+.subCard2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background-color: #AA3B98;
+
+  border-radius: 10px;
+  border: white;
+
+  width: 100%;
+  padding: 20px;
+  
+}
+
+
+/*---------------------------*
+|                            |
+|    HEADER AND SUBHEADER    |
+|                            |
+*---------------------------*/
+
+h2 {
+  font-family: "Jura", sans-serif; 
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 3px;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.ExDuration {
+  font-family: "Inter", sans-serif; 
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+
+}
+
+
+
+/*---------------------*
+|                      |
+|   CARD BUTTONS CSS   |
+|   + hover feature    |
+|                      |
+*---------------------*/
+
+button {
+  padding: 13px 20px 13px 20px;
+  margin: 10px;
+
+  border-radius: 15px;
+  border: 3px solid white;
+
+  font-family: "Inter", sans-serif; 
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.ExButtons {
+  flex: display;
+  flex-direction: column;
+}
+
+
+.PauseEx {
+  background-color: #F5B82E;
+}
+
+.PauseEx:hover {
+  background-color: #fbf0e5;
+  box-shadow: 4px 8px 8px -8px rgb(64, 64, 64, 0.5);
+  color: #F5B82E;
+  border: 3px solid #F5B82E;
+}
+
+.NextEx {
+  background-color: #3a9546;
+}
+
+.NextEx:hover {
+  background-color: #dff1e1;
+  box-shadow: 4px 8px 8px -8px rgb(64, 64, 64, 0.5);
+  color: #3a9546;
+  border: 3px solid #3a9546;
+}
+
+.EndEx {
+  background-color: #c94d60;
+}
+
+.EndEx:hover {
+  background-color: #f0d1d6;
+  box-shadow: 4px 8px 8px -8px rgb(64, 64, 64, 0.5);
+  color: #c94d60;
+  border: 3px solid #c94d60;
+}
+
+.ExDesc {
+  font-family: "Inter", sans-serif; 
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+
+  padding: 10px;
+}
+
+.captured{
+  display: flex;
+}
+
+/*----------------------*
+|                       |
+|    MOBILE VIEW CSS    |
+|                       |
+*----------------------*/
+
+
+@media (max-width: 768px) {
+
+  .Card {
+    display: flex;
+    flex-direction: row;
+
+
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+    max-width: 100%;
+
+  }
+
+  .subCard1 {
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+
+    width: 30%;
+    margin: 10px;
+  }
+
+  .subCard2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+  }
+
+  .ExButtons {
+    flex: display;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  button {
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+
+    border-radius: 10px;
+    border: 3px solid white;
+
+    font-family: "Inter", sans-serif; 
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .ExDesc {
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 15px;
+    letter-spacing: 3px;
+
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+
+}
